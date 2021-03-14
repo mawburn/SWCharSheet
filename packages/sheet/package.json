@@ -1,8 +1,24 @@
 {
-  "name": "sheet",
+  "name": "swadecharsheet",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@use-it/event-listener": "^0.1.6",
+    "fetchler": "^0.0.15",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-redux": "^7.2.2",
+    "react-spring": "^8.0.27",
+    "redux": "^4.0.5",
+    "styled-components": "^5.2.1"
+  },
+  "scripts": {
+    "start": "PORT=4242 craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
     "@craco/craco": "^6.1.1",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
@@ -11,17 +27,13 @@
     "@types/node": "^12.0.0",
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
+    "@types/react-redux": "^7.1.16",
     "react-scripts": "4.0.3",
     "typescript": "^4.1.2",
     "web-vitals": "^1.0.1"
   },
-  "scripts": {
-    "start": "PORT=4242 craco start",
-    "build": "craco build",
-    "test": "craco test",
-    "eject": "react-scripts eject"
+  "resolutions": {
+    "styled-components": "^5"
   },
   "browserslist": {
     "production": [
@@ -34,12 +46,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "@tailwindcss/postcss7-compat": "^2.0.3",
-    "autoprefixer": "^9",
-    "node-sass": "^5.0.0",
-    "postcss": "^7",
-    "tailwindcss": "npm:@tailwindcss/postcss7-compat"
   }
 }
