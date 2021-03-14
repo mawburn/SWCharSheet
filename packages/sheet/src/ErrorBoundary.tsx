@@ -1,4 +1,4 @@
-import React, { Component, MouseEvent } from 'react'
+import { Component, MouseEvent } from 'react'
 
 interface ErrorBoundaryState {
   hasError: boolean
